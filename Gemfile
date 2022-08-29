@@ -5,3 +5,4 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem 'ruby2d', '~> 0.11.3'
+gem 'minitest', '~> 5.16', '>= 5.16.3'
