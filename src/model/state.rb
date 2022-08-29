@@ -24,5 +24,6 @@ module Model
       Model::Food.new(4, 4),
       Model::Grid.new(8, 9)  
     )
+  
   end
 end
