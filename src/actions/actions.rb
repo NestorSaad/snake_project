@@ -49,7 +49,7 @@ module Actions
   
   def self.position_is_valid?(state, position)
     # verificar que este en la grilla
-    is_invalid = (position.row >= state.grid.rows || position.row <= 0 || position.col >= state.grid.cols || position.col <= 0)
+    is_invalid = ((position.row >= state.grid.rows || position.row < 0) || (position.col >= state.grid.cols || position.col < 0))
     return false if is_invalid 
     # verificar q no este superponiendo a la serpiente
     return !(state.snake.positions.include? position)

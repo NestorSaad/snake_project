@@ -12,7 +12,7 @@ class ActionsTests < Minitest::Test
         Model::Coord.new(0, 1)
       ]),
       Model::Food.new(4, 4),
-      Model::Grid.new(8, 9),
+      Model::Grid.new(8, 12),
       Model::Direction::DOWN, 
       false
     )
@@ -25,7 +25,7 @@ class ActionsTests < Minitest::Test
         Model::Coord.new(1, 1)
       ]),
       Model::Food.new(4, 4),
-      Model::Grid.new(8, 9),
+      Model::Grid.new(8, 12),
       Model::Direction::DOWN,
       false
     )
@@ -41,7 +41,7 @@ class ActionsTests < Minitest::Test
         Model::Coord.new(0, 1)
       ]),
       Model::Food.new(4, 4),
-      Model::Grid.new(8, 9),
+      Model::Grid.new(8, 12),
       Model::Direction::DOWN, 
       false
     )
@@ -57,7 +57,7 @@ class ActionsTests < Minitest::Test
         Model::Coord.new(0, 1)
       ]),
       Model::Food.new(4, 4),
-      Model::Grid.new(8, 9),
+      Model::Grid.new(8, 12),
       Model::Direction::LEFT, 
       false
     )
